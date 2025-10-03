@@ -42,3 +42,15 @@ This portfolio website showcases my web development skills through three feature
 - **Git** - Version control and deployment
 
 ## 📁 Project Structure
+portfolio-project/
+├── index.html
+├── css/
+│ └── style.min.css
+├── js/
+│ └── script.min.js
+├── images/
+│ ├── profile.jpg
+│ ├── project1.jpg
+│ ├── project2.jpg
+│ └── project3.jpg
+└── README.md
