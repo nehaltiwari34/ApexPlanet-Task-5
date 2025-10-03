@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio showcasing web development projects and skills">
+    <title>John Doe - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preload" href="images/Profile.avif" as="image">
+</head>
+<body>
+    <header>
+        <nav id="main-nav">
+            <div class="nav-container">
+                <h1 class="logo">Selena Addams</h1>
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>Web Developer & UI/UX Enthusiast</h2>
+                    <p>Creating responsive, accessible, and performant web experiences</p>
+                    <a href="#projects" class="cta-button">View My Work</a>
+                </div>
+                <div class="hero-image">
+                    <img 
+                        src="images/Profile.avif" 
+                        alt="Selena Addams - Web Developer" 
+                        loading="lazy"
+                        width="300"
+                        height="300"
+                    >
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <p>I'm a passionate web developer with 5+ years of experience creating digital solutions that blend form and function. I specialize in front-end development with a focus on performance, accessibility, and user experience.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-target="50">0</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="5">0</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="30">0</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li>HTML5 & CSS3</li>
+                            <li>JavaScript (ES6+)</li>
+                            <li>React.js</li>
+                            <li>Vue.js</li>
+                            <li>Responsive Design</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <ul>
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                            <li>Python</li>
+                            <li>MongoDB</li>
+                            <li>RESTful APIs</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools & Methods</h3>
+                        <ul>
+                            <li>Git & GitHub</li>
+                            <li>Webpack</li>
+                            <li>Jest Testing</li>
+                            <li>Agile/Scrum</li>
+                            <li>CI/CD</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <div class="projects-filter">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="frontend">Frontend</button>
+                    <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project 1: Interactive Webpage -->
+                    <div class="project-card" data-category="frontend">
+                        <div class="project-image">
+                            <img 
+                                src="images/project1.png" 
+                                alt="Interactive Webpage Project" 
+                                loading="lazy"
+                                width="400"
+                                height="250"
+                            >
+                        </div>
+                        <div class="project-info">
+                            <h3>Interactive Webpage</h3>
+                            <p>A responsive webpage featuring semantic HTML structure, CSS styling with colors and fonts, and interactive JavaScript elements including alert buttons.</p>
+                            <div class="project-tech">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>Responsive</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/nehaltiwari34/Apex-Planet-Task-1.git" class="project-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Form & Task Manager -->
+                    <div class="project-card" data-category="fullstack">
+                        <div class="project-image">
+                            <img 
+                                src="images/project2.png" 
+                                alt="Form & Task Manager Application" 
+                                loading="lazy"
+                                width="400"
+                                height="250"
+                            >
+                        </div>
+                        <div class="project-info">
+                            <h3>Form & Task Manager</h3>
+                            <p>A comprehensive application featuring styled forms with validation, and a dynamic to-do list with add/remove functionality using JavaScript DOM manipulation.</p>
+                            <div class="project-tech">
+                                <span>HTML Forms</span>
+                                <span>CSS Styling</span>
+                                <span>JavaScript</span>
+                                <span>DOM Manipulation</span>
+                            </div>
+                            <div class="project-links">
+                                
+                                <a href="https://github.com/nehaltiwari34/ApexPlanet-Task-2.git" class="project-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: Responsive Quiz App -->
+                    <div class="project-card" data-category="frontend">
+                        <div class="project-image">
+                            <img 
+                                src="images/project3.png" 
+                                alt="Responsive Quiz Application" 
+                                loading="lazy"
+                                width="400"
+                                height="250"
+                            >
+                        </div>
+                        <div class="project-info">
+                            <h3>Responsive Quiz App</h3>
+                            <p>A mobile-first responsive application featuring an interactive quiz, image carousel, and API integration to fetch and display dynamic data from public APIs.</p>
+                            <div class="project-tech">
+                                <span>Media Queries</span>
+                                <span>JavaScript</span>
+                                <span>API Integration</span>
+                                <span>Responsive Design</span>
+                            </div>
+                            <div class="project-links">
+                                
+                                <a href="https://github.com/nehaltiwari34/ApexPlanet-Task-3.git" class="project-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Let's work together</h3>
+                        <p>I'm always interested in new opportunities and collaborations.</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <strong>Email:</strong> addams123@gmail.com
+                            </div>
+                            <div class="contact-item">
+                                <strong>Phone:</strong> +1 (555) 123-4567
+                            </div>
+                            <div class="contact-item">
+                                <strong>Location:</strong> San Francisco, CA
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Selena Addams. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                <a href="#" aria-label="GitHub">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.min.js"></script>
+</body>
+</html>
